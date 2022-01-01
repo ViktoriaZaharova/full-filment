@@ -1,0 +1,15 @@
+<svg width="1400" height="392" viewBox="0 0 1400 392" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="499" cy="87" r="19" fill="#FAE301"/>
+    <circle cx="70.5" cy="324.5" r="29.5" fill="#FAE301"/>
+    <circle cx="-0.5" cy="42.5" r="42.5" fill="#FAE301"/>
+    <circle cx="15.5" cy="265.5" r="15.5" fill="#FAE301"/>
+    <circle cx="1392" cy="80" r="50" fill="#FAE301"/>
+    <g clip-path="url(#clip0_3_16)">
+        <circle cx="650" cy="392" r="50" fill="#FAE301"/>
+    </g>
+    <defs>
+        <clipPath id="clip0_3_16">
+            <rect width="208" height="85" fill="white" transform="translate(537 307)"/>
+        </clipPath>
+    </defs>
+</svg>
