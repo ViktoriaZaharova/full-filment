@@ -3,53 +3,379 @@
 /*==========  Desktop First  ==========*/
 
 /* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px)
-	/**/
+@media only screen and (max-width: 1240px)
+  .slick-prev
+    left: 0
 
+  .slick-next
+    right: 0
+
+  .partner-slider
+    padding: 0 30px
+
+@media only screen and (max-width: 1200px)
+  .menu
+    li
+      margin: 0 15px 0 0
+
+  .phone
+    font-size: 16px
+
+  .logo
+    max-width: 100px
+
+  header
+    .links-message
+      padding: 6px 10px
+      font-size: 14px
+
+      &__icon
+        width: 20px
+        height: 20px
+        margin: 0 10px 0 0
+
+  .advantages-box
+    width: 100%
+    height: 120px
+    padding: 20px
 
 /* Medium Devices, Desktops */
-@media only screen and (max-width : 992px)
-	/**/
+@media only screen and (max-width: 992px)
+  .home-img
+    max-width: 350px
+
+  .home-content
+    width: calc(100% - 350px)
+    padding: 0 0 0 20px
+
+    .box-text
+      font-size: 16px
+      line-height: normal
+
+    .btn
+      font-size: 16px
+      height: 50px
+
+
+  h1
+    font-size: 40px
+
+  header, footer
+    .menu
+      font-size: 12px
+
+  .logo
+    max-width: 80px
+
+  .phone
+    font-size: 14px
+
+  header
+
+    .links-message
+      background: transparent
+      border-radius: 0
+      padding: 0
+
+      &__text
+        display: none
+
+      &__icon
+        margin: 0
+        width: 32px
+        height: 33px
+
+  .result-work__content
+    margin: 22px auto 0
+
+    h2
+      text-align: center
+      margin: 0 auto 20px
+
+    .btn
+      margin: 0 auto 0
+
+  .result-work-box
+    margin: 0 0 26px
+
+  .about
+    padding: 22px 0 47px
+
+    h2
+      text-align: center
+      margin: 0 auto 6px
+
+    .box-text
+      margin: 0 auto 20px
+      text-align: center
+
+  .footer-top
+    padding: 26px 0 28px
+
+  footer
+    .logo
+      max-width: 130px
+      margin: 0 auto
+    .menu
+      width: 100%
+      flex-direction: column
+      align-items: center
+      margin: 18px auto 20px
+      font-size: 16px
+      li
+        margin: 0 auto 15px
+        &:last-child
+          margin: 0 auto
+    .phone-group
+      margin: 0 auto 23px
+      font-size: 20px
+      width: 100%
+      text-align: center
+    .links-message
+      margin: 0 auto
+    .phone
+      font-size: 20px
 
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 768px)
-	/**/
+@media only screen and (max-width: 768px)
+  .advantages-box
+    height: 90px
 
+  .home-img
+    max-width: 266px
+
+  .home-content
+    width: calc(100% - 266px)
+
+  h1
+    font-size: 30px
+
+  .home
+    padding: 33px 0 59px
+
+    .box-text
+      margin: 9px auto 17px
+      font-size: 16px
+
+    .btn
+      height: 49px
+      max-width: 160px
+      font-size: 16px
+      padding: 0
+
+  header
+    padding: 3px 0 9px
+
+    .menu, .phone
+      display: none
+
+    .logo
+      margin: 0 auto
+
+  .logo
+    max-width: 108px
+
+  .btn-burger
+    display: flex
+
+  .links-message
+    margin: 0
+
+  .advantages
+    margin: -65px 0 15px
+
+  .advantages-slider
+    margin: 0 -15px
+    width: calc(100% + 30px)
+
+    .slick-slide
+      width: 90px
+      padding: 0
+      margin: 30px 10px 30px 0
+
+  .advantages-box
+    width: 90px
+    height: 90px
+    padding: 20px
+
+  h2
+    font-size: 26px
+
+  .category-slider
+    margin: 0 -15px
+    width: calc(100% + 30px)
+    padding-left: 15px
+
+    .slick-slide
+      width: 191px
+      margin: 0 9px 0 0
+      padding: 0
+
+  .category-box
+    height: 187px
+    font-size: 14px
+    width: 100%
+    padding: 15px 7px 22px
+    border-radius: 15px
+
+    &__icon
+      padding: 12px
+      width: 55px
+      height: 55px
+      margin: 0 auto 11px
+
+    h3
+      font-size: 16px
+      margin: 0 auto
+
+  .category
+    padding: 24px 0 34px
+
+    h2
+      margin: 0 auto 23px
+
+  .category-work
+    padding: 19px 0 27px
+
+    h2
+      margin: 0 auto 11px
+
+  .category-work-box
+    width: 190px
+    padding: 0
+    margin: 0 10px 0 0
+
+    &__text
+      margin: 10px auto 0
+
+  .category-work-row
+    width: calc(100% + 30px)
+    margin: 0 -15px
+    padding-left: 15px
+
+
+  .partner-box
+    height: 109px
+    width: 100%
+    margin: 7px 0 20px
+
+  .partner-slider
+    width: calc(100% + 30px)
+    margin: 0 -15px
+    padding: 0 0 0 15px
+
+    .slick-slide
+      margin: 0 10px 0 0
+      width: 190px
+      padding: 0
+
+    .slick-list
+      margin: 0
+
+  .partner
+    padding: 34px 0 24px
 
 /* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px)
-	/**/
+@media only screen and (max-width: 576px)
+  .home
+    position: relative
+    z-index: -1
+    background: #FFCC03
+
+    &:before
+      content: ''
+      position: absolute
+      background: url("../img/circle-mobile1.svg") no-repeat center
+        size: contain
+
+      width: calc(100% + 14px)
+      height: 335px
+      right: 0
+      top: 50%
+      transform: translate(0, -50%)
+      z-index: -1
+
+  .home-content
+    padding: 0
+    order: -1
+    width: 100%
+    text-align: center
+
+    .btn
+      margin: 0 auto
+
+  .home-img
+    margin: 24px auto 0
+
+  .result-work
+    padding: 0 0 40px
+
+  .result-work-box
+    flex-direction: column
+    align-items: center
+    text-align: center
+    font-size: 14px
+    line-height: 20px
+
+    br
+      display: none
+
+    &__icon
+      margin: 0 auto 1px
+
+    &__text
+      width: 100%
+      max-width: 150px
+      margin: 0 auto
+
+  .result-work__video
+    height: 236px
+    border-radius: 15px
+
+  .about
+    position: relative
+    background: $accent
+    &:before
+      content: ''
+      position: absolute
+      background: url("../img/circle-mobile2.svg") no-repeat center
+        size: contain
+      width: 256px
+      height: 434px
+      right: 14px
+      bottom: 0
+
+
+  .about-img
+    height: 220px
+
+  .category-work
+    h2
+      max-width: 202px
+
+  .partner
+    position: relative
+    background: $accent
+    &:before
+      content: ''
+      position: absolute
+      background: url("../img/circle-mobile3.svg") no-repeat center
+        size: contain
+      width: 37px
+      height: 254px
+      right: 14px
+      bottom: 26px
+
+@media only screen and (max-width: 480px)
+  /**/
 
 
 /* Custom, iPhone Retina */
-@media only screen and (max-width : 320px)
-	/**/
+@media only screen and (max-width: 420px)
+  .about-img
+    height: 156px
+    width: calc(100% + 20px)
+    margin: 0 -10px
 
-
-/*==========  Mobile First  ==========*/
-
-/* Custom, iPhone Retina */
-@media only screen and (min-width : 320px)
-	/**/
-
-
-/* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px)
-	/**/
-
-
-/* Small Devices, Tablets */
-@media only screen and (min-width : 768px)
-	/**/
-
-
-/* Medium Devices, Desktops */
-@media only screen and (min-width : 992px)
-	/**/
-
-
-/* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px)
-	/**/
 
