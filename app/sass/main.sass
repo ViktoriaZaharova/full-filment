@@ -107,9 +107,11 @@ input, textarea, select
   color: #000000
   border: none
     radius: 4px
+
   &:hover, &:focus
     outline: none
     box-shadow: none
+
   &::placeholder
     color: #000
 
@@ -130,6 +132,7 @@ button, .btn
     radius: 0
   font-weight: 500
   font-size: 16px
+
   &:hover, &:focus
     outline: none
     box-shadow: none
@@ -138,6 +141,7 @@ button, .btn
   background: $btn
   color: #000
   padding: 11px 33px
+
   &:hover
     background: $accent
     color: #000
@@ -190,12 +194,16 @@ header
   justify-content: center
   flex-wrap: wrap
   margin: 0 auto
+
   li
     margin: 0 25px 0 0
+
     &:last-child
       margin: 0
+
     a
       color: #000
+
       &:hover
         color: $accent
 
@@ -203,6 +211,7 @@ header
   color: #000
   font-size: 20px
   font-weight: 800
+
   &:hover
     color: $accent
 
@@ -215,9 +224,11 @@ header
   font-size: 15px
   color: #000
   margin: 0 0 0 15px
+
   &:hover
     color: #000
     background: $accent
+
   &__icon
     display: flex
     align-items: center
@@ -243,10 +254,12 @@ header
   width: calc(100% - 450px)
   max-width: 600px
   padding: 0 0 0 83px
+
   .box-text
     margin: 10px 0 22px
     font-size: 20px
     line-height: 30px
+
   .btn
     font-size: 20px
     height: 59px
@@ -269,8 +282,10 @@ header
 //result-work
 .result-work
   padding: 0 0 60px
+
   h2
     margin: 0 0 31px
+
   .btn
     width: fit-content
     margin: 32px 0 0
@@ -280,6 +295,7 @@ header
   height: 471px
   overflow: hidden
   border-radius: 20px
+
   iframe
     width: 100%
     height: 100%
@@ -290,6 +306,7 @@ header
   margin: 0 0 13px
   font-size: 16px
   font-weight: 500
+
   &__icon
     display: flex
     align-items: center
@@ -305,6 +322,7 @@ header
   background: #FFCC03 url("../img/circle2.svg") no-repeat center bottom
     size: cover
   padding: 60px 0 58px
+
   h2
     margin: 0 0 10px
 
@@ -316,10 +334,173 @@ header
   height: 301px
   overflow: hidden
   border-radius: 20px
+
   img
     width: 100%
     height: 100%
     object-fit: cover
+
+//category
+.category
+  padding: 46px 0 30px
+
+  h2
+    margin: 0 auto 28px
+
+.category-box
+  width: 100%
+  height: 100%
+  border-radius: 20px
+  text-align: center
+  background: #FFCC03
+  padding: 27px 30px
+
+  &__icon
+    display: flex
+    align-items: center
+    justify-content: center
+    margin: 0 auto 13px
+    width: 94px
+    height: 94px
+    border-radius: 50%
+    background: rgba(#fff, .3)
+    padding: 20px
+
+  h3
+    margin: 0 auto 5px
+
+
+//category-work
+.category-work
+  background: #F8F8F8
+  padding: 51px 0 33px
+
+  h2
+    margin: 0 auto 50px
+    max-width: 800px
+
+.category-work-box
+  width: 20%
+  padding: 0 12px
+  margin: 0 auto 20px
+  text-align: center
+  font-size: 16px
+  font-weight: 500
+
+  &__text
+    max-width: 170px
+    margin: 13px auto 0
+    width: 100%
+
+  &__img
+    width: 100%
+    height: 135px
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12)
+    border-radius: 10px
+    overflow: hidden
+    display: flex
+    align-items: center
+    justify-content: center
+
+    img
+      width: 100%
+      height: 100%
+      object-fit: cover
+
+
+.category-work-row
+  margin: 0 -12px
+  display: flex
+  align-items: flex-start
+  flex-wrap: wrap
+
+//callback
+.callback
+  padding: 51px 0 59px
+  background: #FFCC03 url("../img/circle3.svg") no-repeat center
+    size: 100%
+
+  h2
+    margin: 0 auto 10px
+
+.form
+  label, button
+    margin: 31px 0 0
+
+  button
+    max-width: none
+    width: 100%
+    height: 59px
+    font-size: 20px
+
+//partner
+.partner
+  padding: 46px 0 28px
+  background: #F8F8F8
+
+  h2
+    margin: 0 auto 10px
+
+.partner-slider
+  .slick-list
+    margin: 0 -15px
+
+  .slick-slide
+    padding: 0 15px
+
+.partner-box
+  display: flex
+  align-items: center
+  justify-content: center
+  background: #fff
+  height: 109px
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12)
+  border-radius: 10px
+  padding: 10px 13px
+  margin: 45px auto
+
+  img
+    max-height: 100%
+
+.slick-slider
+  width: 100%
+
+.slick-slide
+  outline: none
+
+.slick-arrow
+  position: absolute
+  z-index: 1
+  opacity: 1
+  cursor: pointer
+  display: flex
+  align-items: center
+  justify-content: center
+  width: 33px
+  height: 33px
+  padding: 5px 10px
+  fill: #BBBBBB
+  top: 50%
+  transform: translate(0,-50%)
+
+.slick-prev
+  left: -41px
+
+.slick-next
+  right: -41px
+
+//footer
+.footer-top
+  padding: 15px 0 21px
+
+.footer-bottom
+  background: $accent
+  text-align: center
+  padding: 7px 0 8px
+
+.copyright
+  line-height: 30px
+
 
 @import "media"
 // Всегда в конце

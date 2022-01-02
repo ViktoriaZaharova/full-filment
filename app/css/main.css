@@ -386,6 +386,181 @@ header {
     -o-object-fit: cover;
        object-fit: cover; }
 
+.category {
+  padding: 46px 0 30px; }
+  .category h2 {
+    margin: 0 auto 28px; }
+
+.category-box {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  text-align: center;
+  background: #FFCC03;
+  padding: 27px 30px; }
+  .category-box__icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 auto 13px;
+    width: 94px;
+    height: 94px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 20px; }
+  .category-box h3 {
+    margin: 0 auto 5px; }
+
+.category-work {
+  background: #F8F8F8;
+  padding: 51px 0 33px; }
+  .category-work h2 {
+    margin: 0 auto 50px;
+    max-width: 800px; }
+
+.category-work-box {
+  width: 20%;
+  padding: 0 12px;
+  margin: 0 auto 20px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500; }
+  .category-work-box__text {
+    max-width: 170px;
+    margin: 13px auto 0;
+    width: 100%; }
+  .category-work-box__img {
+    width: 100%;
+    height: 135px;
+    -webkit-box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+            box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .category-work-box__img img {
+      width: 100%;
+      height: 100%;
+      -o-object-fit: cover;
+         object-fit: cover; }
+
+.category-work-row {
+  margin: 0 -12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.callback {
+  padding: 51px 0 59px;
+  background: #FFCC03 url("../img/circle3.svg") no-repeat center;
+    background-size: 100%; }
+  .callback h2 {
+    margin: 0 auto 10px; }
+
+.form label, .form button {
+  margin: 31px 0 0; }
+
+.form button {
+  max-width: none;
+  width: 100%;
+  height: 59px;
+  font-size: 20px; }
+
+.partner {
+  padding: 46px 0 28px;
+  background: #F8F8F8; }
+  .partner h2 {
+    margin: 0 auto 10px; }
+
+.partner-slider .slick-list {
+  margin: 0 -15px; }
+
+.partner-slider .slick-slide {
+  padding: 0 15px; }
+
+.partner-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #fff;
+  height: 109px;
+  -webkit-box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  padding: 10px 13px;
+  margin: 45px auto; }
+  .partner-box img {
+    max-height: 100%; }
+
+.slick-slider {
+  width: 100%; }
+
+.slick-slide {
+  outline: none; }
+
+.slick-arrow {
+  position: absolute;
+  z-index: 1;
+  opacity: 1;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 33px;
+  height: 33px;
+  padding: 5px 10px;
+  fill: #BBBBBB;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%); }
+
+.slick-prev {
+  left: -41px; }
+
+.slick-next {
+  right: -41px; }
+
+.footer-top {
+  padding: 15px 0 21px; }
+
+.footer-bottom {
+  background: #FFCC03;
+  text-align: center;
+  padding: 7px 0 8px; }
+
+.copyright {
+  line-height: 30px; }
+
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
