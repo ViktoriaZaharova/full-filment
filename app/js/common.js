@@ -8,6 +8,8 @@ $(document).ready(function () {
                 scrollTop: $(scroll_el).offset().top
             }, 500);
         }
+        $('.mobile-menu').fadeOut();
+        $('.overlay').fadeOut();
         return false;
     });
 });
