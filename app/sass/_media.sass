@@ -148,12 +148,15 @@
   .home-content
     width: calc(100% - 266px)
 
+
   h1
     font-size: 30px
 
   .home
     padding: 33px 0 59px
-
+    .container
+      position: relative
+      z-index: 1
     .box-text
       margin: 9px auto 17px
       font-size: 16px
@@ -280,7 +283,7 @@
 @media only screen and (max-width: 576px)
   .home
     position: relative
-    z-index: -1
+    z-index: 1
     background: #FFCC03
 
     &:before
@@ -307,6 +310,10 @@
 
   .home-img
     margin: 24px auto 0
+
+  .advantages
+    position: relative
+    z-index: 1
 
   .result-work
     padding: 0 0 40px
